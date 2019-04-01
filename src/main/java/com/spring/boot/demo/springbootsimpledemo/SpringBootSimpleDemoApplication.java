@@ -28,4 +28,9 @@ public class SpringBootSimpleDemoApplication {
 	public String test2(){
 		return "jenkins2 build success 2222222";
 	}
+
+	@RequestMapping("/jenkins3")
+	public String test3(){
+		return "jenkins3 build success 33333333";
+	}
 }
